@@ -1,21 +1,3 @@
-/*!
-
- =========================================================
- * Now-ui-kit - v1.1.0
- =========================================================
-
- * Product Page: https://www.creative-tim.com/product/now-ui-kit
- * Copyright 2017 Creative Tim (http://www.creative-tim.com)
- * Licensed under MIT (https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md)
-
- * Designed by www.invisionapp.com Coded by www.creative-tim.com
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- */
-
 var transparent = true;
 
 var transparentDemo = true;
@@ -26,7 +8,6 @@ var navbar_initialized,
     toggle_initialized = false;
 
 $(document).ready(function() {
-    //  Activate the Tooltips
     $('[data-toggle="tooltip"], [rel="tooltip"]').tooltip();
 
     // Activate Popovers and set color for popovers
@@ -216,11 +197,6 @@ nowuiKitDemo = {
     }, 6)
 
 }
-
-// Returns a function, that, as long as it continues to be invoked, will not
-// be triggered. The function will be called after it stops being called for
-// N milliseconds. If `immediate` is passed, trigger the function on the
-// leading edge, instead of the trailing.
 
 function debounce(func, wait, immediate) {
     var timeout;

@@ -1053,7 +1053,6 @@
                     clsName = $.unique(clsName);
                 }
 
-                // Creative Tim - we added a div inside each td for design purposes
                 html.push('<td class="' + clsName.join(' ') + '"' + (tooltip ? ' title="' + tooltip + '"' : '') + (this.o.dateCells ? ' data-date="' + prevMonth.getTime().toString() + '"' : '') + '><div>' + prevMonth.getUTCDate() + '</div></td>');
                 tooltip = null;
                 if (weekDay === this.o.weekEnd) {
