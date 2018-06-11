@@ -29,7 +29,7 @@
     transition: max-height 0.2s ease-out;
 }
 
-.active, .collapsible:hover {
+.active_collapse, .collapsible:hover {
   background-color: #ccc;
 }
 
@@ -41,6 +41,6 @@
     margin-left: 5px;
 }
 
-.active:after {
+.active_collapse:after {
     content: "\2796";
 }
