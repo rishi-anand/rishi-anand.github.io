@@ -11,6 +11,17 @@
   font-size: 15px;
 }
 */
+.complete_expand{
+    display:none;
+}
+
+.more_expand{
+    background:lightblue;
+    color:navy;
+    font-size:13px;
+    padding:3px;
+    cursor:pointer;
+}
 
 .collapsible {
   background-color: #eee;

@@ -5,3 +5,8 @@ p.font_lucida {
 p.font_arial {
     font-family: "Arial Black", Gadget, sans-serif;
 }
+
+p.font_courier {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
+}

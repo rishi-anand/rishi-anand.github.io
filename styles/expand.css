@@ -1,0 +1,11 @@
+.complete_expand{
+    display:none;
+}
+
+.more, .less{
+    background:lightblue;
+    color:navy;
+    font-size:13px;
+    padding:3px;
+    cursor:pointer;
+}
