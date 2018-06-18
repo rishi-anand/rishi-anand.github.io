@@ -1,0 +1,9 @@
+.page-header-image {
+background-image: url('../images/cc-bg-1.jpg');
+position:fixed ;
+top:0;
+width:100%;
+z-index:0;
+height:100%;
+background-size: calc(100% + 50px);
+}
